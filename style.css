@@ -1,0 +1,164 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-btn {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #eaf4fd;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Content Section */
+  .content {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    width: 20%;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 0.5rem;
+    color:white;
+  }
+  
+  /* Main Content */
+  .main-content {
+    width: 75%;
+  }
+  
+  .trending {
+    margin-bottom: 2rem;
+  }
+  
+  .tags span {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #ddd;
+    border-radius: 20px;
+  }
+  
+  .articles article {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Newsletter */
+  .newsletter {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    margin-top: 2rem;
+  }
+  
+  .newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .newsletter input {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .newsletter small {
+    display: block;
+    margin-top: 1rem;
+    color: #666;
+  }
+  .head{
+    color: rgba(28, 92, 255, 1);
+
+  }
+.search-bar{
+    border-radius: 20px;
+    border: 2px black; 
+    width: 300px;
+}
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  
+    .main-content {
+      width: 100%;
+    }
+  }
+  
