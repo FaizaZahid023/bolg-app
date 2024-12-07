@@ -31,6 +31,7 @@ let signUp = () => {
       .then((userCredential) => {
         const user = userCredential.user;
         console.log(user);
+           window.location.href = "index.html"; 
       })
       .catch((error) => {
         console.log(error.message);
